@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     if: |
       !github.event.repository.is_template &&
-      github.head_ref == 'start-blog' &&
+      (github.head_ref == 'start-blog' || github.head_ref == 'copilot/skills-to-communicate-using-markdown') &&
       github.event.pull_request.merged == true
     env:
       ISSUE_URL: ${{ needs.find_exercise.outputs.issue-url }}
