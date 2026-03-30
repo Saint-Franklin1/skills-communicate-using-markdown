@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - start-blog
+      - copilot/skills-to-communicate-using-markdown
     paths:
       - "day-1.md"
 
