@@ -1,8 +1,12 @@
 # Daily Learning
 
+Welcome to my daily learning journal where I track my progress using Markdown!
+
 ## Morning Planning
 
 Today I'm learning how to use Markdown to communicate and format content on GitHub.
+
+### Tasks
 
 - [ ] Learn about headings
 - [ ] Add a task list
